@@ -1,12 +1,12 @@
 import React from 'react';
-import DynamicBarChart from './DynamicBarChart';
-import Dropdown from './Weatherforcate';
+import DynamicBarChart from './assets/DynamicBarChart';
+import WeatherComponent from './assets/Weatherforecast';
 
 const App = () => {
   return (
-    <div className="App">
-      
+    <div className = "App">
       <DynamicBarChart />
+      <WeatherComponent/>
     </div>
   );
 };
