@@ -39,7 +39,7 @@ Moving on to the Line Chart, this component is crafted to display a weather fore
 
 Both these components show efficiency and power of React in creating dynamic and data-driven visualizations. The Bar Chart offers a hands-on, user-interactive experience, while the Line Chart provides useful and dynamically updated weather information, showcasing the versatility and capability of React in handling various types of data and user interactions.
 
-#Note: 
+#### Note: 
 <img width="193" alt="user browser" src="https://github.com/Shabarish001/Assessment/assets/126070029/077a5ff6-429b-407c-b2bb-801f3ed76103">
 
 
