@@ -3,15 +3,16 @@ import { Bar } from 'react-chartjs-2';
 import Chart from 'chart.js/auto';
 
 const DynamicBarChart = () => {
+  // State to store bar chart data and control inputfeilds visibility
   const [barData, setBarData] = useState(['','','','']);
   const [showInputs, setShowInputs] = useState(false);
 
+// Chart options for styling and configuration
   const options = {
     plugins: {
       legend: {
         position: 'top',
         maintainAspectRatio: true,
-        
       },
       title: {
         position: 'top',
@@ -35,13 +36,14 @@ const DynamicBarChart = () => {
     ],
   };
 
+  // Function to handle input changes for each bar
   const handleInputChange = (index, value) => {
     const numericValue = Number(value);
     const updatedData = [...barData];
     updatedData[index] = numericValue >= 0 ? numericValue : 0;
     setBarData(updatedData);
   };
-
+// Function to handle the button click
   const handleButtonClick = () => {
     setShowInputs(true);
   };
@@ -87,7 +89,7 @@ const DynamicBarChart = () => {
         </div>
       </div>
     )}
-
+    
   </div>
 </div>
 
