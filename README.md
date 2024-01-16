@@ -35,7 +35,7 @@ In my recent project, I focused on creating two Dynamic chart components: a Dyna
 
 Starting with the Dynamic Bar Chart, this component is quite interactive and user-friendly. It features a "Generate Graph" button that, when clicked, brings up a pop-up with input fields. These fields are designed to accept only numerical values. When a user enters a number greater than zero, the bar chart dynamically adjusts to reflect this input. This functionality is made possible through the use of React's useState hook. I utilized two separate useState instances: one for managing the display of input fields and another for handling changes in input values, ensuring a responsive and interactive chart experience.
 
-Moving on to the Line Chart, this component is crafted to display a weather forecast. I integrated it with OpenWeatherMap.org, using a third-party API key to fetch weather data. When the component is first rendered, it uses the browser's geolocation feature to determine the user's current position The chart makes good use of React's useEffect hook for API data fetching and useState for temperature and user coordinates. With this data in hand, will display the temperature forecast for a 7-day period daily using lineChart.
+Moving on to the Line Chart, this component is crafted to display a weather forecast. I integrated it with OpenWeatherMap.org, using a third-party API key to fetch weather data. When the component is first rendered, it uses the browser's geolocation feature to determine the user's current position. The chart makes good use of React's useEffect hook for API data fetching and useState for temperature and user coordinates. With this data in hand, will display the temperature forecast for a 7-day period daily using lineChart.
 
 Both these components show efficiency and power of React in creating dynamic and data-driven visualizations. The Bar Chart offers a hands-on, user-interactive experience, while the Line Chart provides useful and dynamically updated weather information, showcasing the versatility and capability of React in handling various types of data and user interactions.
 
@@ -43,4 +43,4 @@ Both these components show efficiency and power of React in creating dynamic and
 <img width="193" alt="user browser" src="https://github.com/Shabarish001/Assessment/assets/126070029/077a5ff6-429b-407c-b2bb-801f3ed76103">
 
 
-Make sure to allow the permission when you open the app in browser so that it can detect the location of the user using lat and long. 
+Make sure to allow permission when you open the app in the browser so that it can detect the location of the user using lat and long. 
