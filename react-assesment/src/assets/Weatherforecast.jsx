@@ -3,27 +3,31 @@ import { Line } from 'react-chartjs-2';
 import Chart from 'chart.js/auto';
 
 const WeatherComponent = () => {
+   // State to store temperature data and user's geolocation
   const [temperatures, setTemperatures] = useState([]);
   const [position, setPosition]         = useState({ lat: null, long: null });
   const apiKey                          = '83eec0f4bdaee4b91c0da5df5b43e28c';   // API key by Open weatherMap
 
   useEffect(() => {
+    // Fetch user's geolocation
     navigator.geolocation.getCurrentPosition(position => {
       const { latitude, longitude } = position.coords;
       setPosition({ lat: latitude, long: longitude });
-
+// API URL for weather data according to our needs
       const apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=current,minutely,hourly,alerts&units=metric&appid=${apiKey}`;
-      
+
+       // Fetch weather data from the API
       fetch(apiUrl)
         .then(response => response.json())
         .then(data => {
+          // Extract daily temperatures from the API response
           const dailyTemps = data.daily.map(day => day.temp.day);
           setTemperatures(dailyTemps);
         })
         .catch(error => console.error(error));
     });
   }, []);
-
+// Data for the Line Chart
   const data = {
     labels  : ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7'],
     datasets: [
