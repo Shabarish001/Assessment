@@ -16,7 +16,7 @@
 
   `localhost:5137/`
 
-# Required dependencies and libraries to run the project
+## Required dependencies and libraries to run the project
 * React
 * react-chartjs-2
 * Chart.js
