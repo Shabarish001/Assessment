@@ -43,7 +43,7 @@ const DynamicBarChart = () => {
   };
 
   const handleButtonClick = () => {
-    setShowInputs(prevShowInputs => !prevShowInputs);
+    setShowInputs(true);
   };
 
   return (

@@ -13,7 +13,7 @@ const WeatherComponent = () => {
       setPosition({ lat: latitude, long: longitude });
 
       const apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=current,minutely,hourly,alerts&units=metric&appid=${apiKey}`;
-
+      
       fetch(apiUrl)
         .then(response => response.json())
         .then(data => {
