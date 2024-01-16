@@ -6,11 +6,11 @@
 
 ## Installation and Setup Instructions
   Starting with the cloning of the repository. You require `node` and `npm` installed globally on your machine
-  Installation:
+* Installation:
   `npm install`
-  Development Server: 
+* Development Server: 
   `npm run dev`
-  To Visit App:
+* To Visit App:
   `localhost:5137/`
 
 # Required dependencies and libraries to run the project
