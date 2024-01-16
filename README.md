@@ -10,8 +10,10 @@
 
   `npm install`
 * Development Server: 
+
   `npm run dev`
 * To Visit App:
+
   `localhost:5137/`
 
 # Required dependencies and libraries to run the project
