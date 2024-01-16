@@ -21,7 +21,7 @@
 * react-chartjs-2
 * Chart.js
 
-## Project Screen Shot(s)
+## Project Screenshot's
 #### Example:
 <img width="401" alt="barchart" src="https://github.com/Shabarish001/Assessment/assets/126070029/ee52a7a8-f5af-4013-958c-86727cab9824">
 <img width="125" alt="Pop-up" src="https://github.com/Shabarish001/Assessment/assets/126070029/71e54ad0-eb4e-4907-a4fe-84e8b3a08ffd">
