@@ -25,6 +25,8 @@
 #### Example:
 <img width="401" alt="barchart" src="https://github.com/Shabarish001/Assessment/assets/126070029/ee52a7a8-f5af-4013-958c-86727cab9824">
 <img width="125" alt="Pop-up" src="https://github.com/Shabarish001/Assessment/assets/126070029/71e54ad0-eb4e-4907-a4fe-84e8b3a08ffd">
+
+
 <img width="389" alt="lineChart" src="https://github.com/Shabarish001/Assessment/assets/126070029/ec8a1636-7344-45dd-a3b1-34f07362fde4">
 
 
@@ -39,4 +41,6 @@ Both these components show efficiency and power of React in creating dynamic and
 
 #Note: 
 <img width="193" alt="user browser" src="https://github.com/Shabarish001/Assessment/assets/126070029/077a5ff6-429b-407c-b2bb-801f3ed76103">
+
+
 Make sure to allow the permission when you open the app in browser so that it can detect the location of the user using lat and long. 
